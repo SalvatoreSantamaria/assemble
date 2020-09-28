@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, only: [:new, :create, :update, :edit, :destroy]
 
   # GET /posts
   # GET /posts.json
@@ -10,6 +11,10 @@ class PostsController < ApplicationController
   # GET /posts/1
   # GET /posts/1.json
   def show
+    respond_to do |format|
+      format.html
+      format.json
+    end
   end
 
   # GET /posts/new
