@@ -7,7 +7,7 @@
 
 # Setup instructions:
 * Clone this repo
-* Downlown and install MongoDB from https://docs.mongodb.com/manual/installation/ 
+* Download and install MongoDB from https://docs.mongodb.com/manual/installation/ 
 * Run Bundle Install
 * Run this application locally via rails s
 
