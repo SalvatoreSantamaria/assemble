@@ -3,22 +3,16 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+# Built with:
+* Rails 6.0.3.3
+* Ruby 2.7.1
 
-* Ruby version
 
-* System dependencies
+# Setup instructions:
+* Clone this repo
+* Downlown and install MongoDB from https://docs.mongodb.com/manual/installation/ 
+* Run Bundle Install
+* Run this application locally via rails s
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
