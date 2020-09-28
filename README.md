@@ -1,8 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
 # Built with:
 * Rails 6.0.3.3
 * Ruby 2.7.1
